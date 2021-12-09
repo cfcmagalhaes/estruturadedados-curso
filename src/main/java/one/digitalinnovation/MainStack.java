@@ -2,6 +2,7 @@ package one.digitalinnovation;
 
 import java.util.Stack;
 
+// Stack = Pilha (FILO) -> First in Last out
 public class MainStack
 {
     public static void main( String[] args )
@@ -21,7 +22,7 @@ public class MainStack
         System.out.println(stackCarros.peek());
 
         stackCarros.clear();
-        
+
         System.out.println( stackCarros.empty());
 
     }
